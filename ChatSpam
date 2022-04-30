@@ -1,4 +1,4 @@
--- getgenv().a = "ur text"
+-- local aa = "ur text"
 local b = game:FindService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest")
 
 for c = 1, 7 do
