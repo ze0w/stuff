@@ -25,7 +25,7 @@ function esp(l, m, n)
     while l do
       wait(0.2)
       pcall(function()
-        q.Text = o .. " | " ..e((i.Character.HumanoidRootPart.Position - l:FindFirstChildWhichIsA("Part").Position).magnitude)
+        q.Text = o.." | "..e((i.Character.HumanoidRootPart.Position - l:FindFirstChildWhichIsA("Part").Position).magnitude)
       end)
     end
   end)
